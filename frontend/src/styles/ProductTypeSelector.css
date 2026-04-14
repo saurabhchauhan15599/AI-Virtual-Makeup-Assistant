@@ -1,0 +1,59 @@
+.product-type-selector-container {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.product-type-selector-container h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.product-type-options {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.product-type-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 150px;
+}
+
+.product-type-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-type-button.active {
+  border-color: #ff6b6b;
+  background-color: #fff0f0;
+  box-shadow: 0 5px 15px rgba(255, 107, 107, 0.2);
+}
+
+.product-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.product-type-button span {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* Specific icons */
+.foundation-icon {
+  color: #d4a373;
+}
+
+.lipstick-icon {
+  color: #e63946;
+}
